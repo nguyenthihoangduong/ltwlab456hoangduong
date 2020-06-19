@@ -9,7 +9,7 @@ namespace Nguyenthihoangduong_Lab456__.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(Nguyenthihoangduong_Lab456__.Models.ApplicationDbContext context)

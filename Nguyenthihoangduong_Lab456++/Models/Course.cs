@@ -8,7 +8,7 @@ namespace Nguyenthihoangduong_Lab456__.Models
 {
     public class Course
     {
-        public int ID { get; set; }
+        public int Id { get; set; }
 
         public ApplicationUser Lecturer { get; set; }
         [Required]
@@ -20,6 +20,7 @@ namespace Nguyenthihoangduong_Lab456__.Models
         public Category Category  { get; set; }
         [Required]
         public Byte CategoryID { get; set; }
+
     }
     
 }
