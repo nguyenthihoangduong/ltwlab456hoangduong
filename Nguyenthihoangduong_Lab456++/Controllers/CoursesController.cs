@@ -89,7 +89,7 @@ namespace Nguyenthihoangduong_Lab456__.Controllers
             .Include(c=>c.Lecturer)
             .Include(c => c.Category)
             .ToList();
-            return View(courses); 
+            return View(courses);    
         }
         }
 }
